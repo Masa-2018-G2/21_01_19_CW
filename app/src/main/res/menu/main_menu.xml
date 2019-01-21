@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/settings_item"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="always"
+        android:title="Settings"/>
+
+    <item android:title="Logout"
+        android:id="@+id/logout_item"/>
+
+    <item android:id="@+id/edit_item"
+        android:title="Edit"
+        android:icon="@drawable/ic_action_edit"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/done_item"
+        android:title="Done"
+        android:visible="false"
+        android:icon="@drawable/ic_action_done"
+        app:showAsAction="always"/>
+
+</menu>
